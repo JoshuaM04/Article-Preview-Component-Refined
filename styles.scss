@@ -13,7 +13,7 @@ body {
     align-items: center;
 }
 .container {
-    margin: 1rem;
+    margin: 1.5rem;
     border-style: none;
     background-color: white;
 
@@ -31,6 +31,17 @@ body {
     }
     p.date {
         color: hsl(212, 23%, 69%);
+    }
+    .text-body {
+        margin: .5rem;
+
+        h1.inner-text {
+            margin: 1rem;
+            margin-top: 2rem;
+        }
+        p.inner-text {
+            margin: 1rem;
+        }
     }
 }
 .img-container {
