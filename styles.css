@@ -25,6 +25,14 @@ body {
 }
 .container p {
   color: hsl(214, 17%, 51%);
+  font-weight: 500;
+}
+.container p.name {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+}
+.container p.date {
+  color: hsl(212, 23%, 69%);
 }
 
 .img-container img {
