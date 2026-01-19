@@ -6,6 +6,7 @@
 
 body {
   height: 100vh;
+  font-family: "Manrope", serif;
   font-size: 13px;
   background-color: hsl(210, 46%, 95%);
   display: flex;
