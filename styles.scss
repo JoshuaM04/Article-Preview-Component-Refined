@@ -16,6 +16,14 @@ body {
     margin: 1rem;
     border-style: none;
     background-color: white;
+
+    h1 {
+        color: hsl(217, 19%, 35%);
+        font-size: 1rem;
+    }
+    p {
+        color: hsl(214, 17%, 51%);
+    }
 }
 .img-container {
     img {

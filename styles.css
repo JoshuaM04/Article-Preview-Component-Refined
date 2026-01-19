@@ -19,6 +19,13 @@ body {
   border-style: none;
   background-color: white;
 }
+.container h1 {
+  color: hsl(217, 19%, 35%);
+  font-size: 1rem;
+}
+.container p {
+  color: hsl(214, 17%, 51%);
+}
 
 .img-container img {
   max-inline-size: 100%;
