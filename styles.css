@@ -17,4 +17,10 @@ body {
 .container {
   margin: 1rem;
   border-style: none;
+  background-color: white;
+}
+
+.img-container img {
+  max-inline-size: 100%;
+  block-size: auto;
 }/*# sourceMappingURL=styles.css.map */
