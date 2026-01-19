@@ -14,7 +14,9 @@ body {
 }
 .container {
     margin: 1.5rem;
+    padding-bottom: 1rem;
     border-style: none;
+    border-radius: .5rem;
     background-color: white;
 
     h1 {
@@ -44,8 +46,11 @@ body {
         }
     }
     .footer {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .profile-container {
         width: 3rem;
@@ -64,5 +69,7 @@ body {
     img {
         max-inline-size: 100%;
         block-size: auto;
+        border-top-right-radius: .5rem;
+        border-top-left-radius: .5rem;
     }
 }
