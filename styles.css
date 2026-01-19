@@ -44,6 +44,11 @@ body {
 .container .text-body p.inner-text {
   margin: 1rem;
 }
+.container .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .img-container img {
   max-inline-size: 100%;
