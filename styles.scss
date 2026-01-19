@@ -45,8 +45,19 @@ body {
     }
     .footer {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
+    }
+    .profile-container {
+        width: 3rem;
+        img {
+            max-inline-size: 100%;
+            block-size: auto;
+            border-radius: 50%;
+        }
+    }
+    .inner-text-footer {
+        display: flex;
+        flex-direction: column;
     }
 }
 .img-container {
