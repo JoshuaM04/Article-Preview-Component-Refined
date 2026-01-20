@@ -124,7 +124,7 @@ a:visited {
   color: blue;
 }
 
-@media (min-width: 90rem) {
+@media (min-width: 62.5rem) {
   .container {
     margin: 0;
     padding: 0;
