@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 body {
@@ -60,8 +62,6 @@ body {
   width: 3rem;
 }
 .container .profile-container img {
-  max-inline-size: 100%;
-  block-size: auto;
   border-radius: 50%;
 }
 .container .inner-text-footer {
@@ -72,8 +72,6 @@ body {
 }
 
 .img-container img {
-  max-inline-size: 100%;
-  block-size: auto;
   border-top-right-radius: 0.5rem;
   border-top-left-radius: 0.5rem;
 }
@@ -135,7 +133,6 @@ a:visited {
     align-items: center;
   }
   .img-container img {
-    block-size: auto;
     margin-bottom: 0;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0.5rem;

@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-inline-size: 100%;
+    block-size: auto;
 }
 body {
     height: 100vh;
@@ -58,8 +60,6 @@ body {
     .profile-container {
         width: 3rem;
         img {
-            max-inline-size: 100%;
-            block-size: auto;
             border-radius: 50%;
         }
     }
@@ -72,8 +72,6 @@ body {
 }
 .img-container {
     img {
-        max-inline-size: 100%;
-        block-size: auto;
         border-top-right-radius: .5rem;
         border-top-left-radius: .5rem;
     }
@@ -132,7 +130,6 @@ a:visited {
     }
     .img-container {
         img {
-            block-size: auto;
             margin-bottom: 0;
             border-top-right-radius: 0;
             border-bottom-left-radius: .5rem;
