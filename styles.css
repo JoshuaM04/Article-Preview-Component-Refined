@@ -23,7 +23,7 @@ body {
   border-radius: 0.5rem;
   background-color: white;
 }
-.container h1 {
+.container h2 {
   color: hsl(217, 19%, 35%);
   font-size: 1rem;
 }
@@ -42,7 +42,7 @@ body {
   margin: 0.5rem;
   margin-bottom: 2rem;
 }
-.container .text-body h1.inner-text {
+.container .text-body h2.inner-text {
   margin: 1rem;
   margin-top: 2rem;
 }
@@ -88,8 +88,13 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.share-container button span {
-  visibility: hidden;
+.share-container button .sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .footer-bottom {
