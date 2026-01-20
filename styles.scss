@@ -72,8 +72,7 @@ body {
 }
 .img-container {
     img {
-        /* Object-fit: cover doesn't appear to work */
-        object-fit: cover;
+        display: block;
         border-top-right-radius: .5rem;
         border-top-left-radius: .5rem;
     }
