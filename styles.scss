@@ -85,3 +85,13 @@ body {
     display: flex;
     justify-content: center;
 }
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+}
+a:visited {
+    color: blue;
+}
