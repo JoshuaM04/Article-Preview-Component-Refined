@@ -73,3 +73,15 @@ body {
         border-top-left-radius: .5rem;
     }
 }
+.footer-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-inline: auto;
+    width: fit-content;
+}
+.attribution {
+    display: flex;
+    justify-content: center;
+}
