@@ -118,4 +118,21 @@ a:hover {
 
 a:visited {
   color: blue;
+}
+
+@media (min-width: 90rem) {
+  .container {
+    margin: 0;
+    padding: 0;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .img-container img {
+    block-size: auto;
+    margin-bottom: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.5rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
