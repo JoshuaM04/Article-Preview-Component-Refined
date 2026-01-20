@@ -95,6 +95,12 @@ body {
   height: 1px;
   overflow: hidden;
 }
+.share-container button:hover {
+  transform: scale(1.1);
+}
+.share-container button:active {
+  background-color: hsl(217, 19%, 35%);
+}
 
 .footer-bottom {
   position: absolute;

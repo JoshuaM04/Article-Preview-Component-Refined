@@ -97,6 +97,12 @@ body {
             overflow: hidden;
         }
     }
+    button:hover {
+        transform: scale(1.1);
+    }
+    button:active {
+        background-color: hsl(217, 19%, 35%);
+    }
 }
 .footer-bottom {
     position: absolute;
