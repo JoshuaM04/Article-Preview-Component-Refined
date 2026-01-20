@@ -76,6 +76,22 @@ body {
         border-top-left-radius: .5rem;
     }
 }
+.share-container {
+    button {
+        height: 2rem;
+        width: 2rem;
+        margin-right: .5rem;
+        border-style: none;
+        border-radius: 50%;
+        background-image: url("images/icon-share.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        span {
+            visibility: hidden;
+        }
+    }
+}
 .footer-bottom {
     position: absolute;
     left: 0;
