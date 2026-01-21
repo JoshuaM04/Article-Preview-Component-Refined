@@ -104,6 +104,7 @@ body {
   background-color: hsl(217, 19%, 35%);
 }
 .share-container .pop-up-container {
+  position: relative;
   background-color: hsl(217, 19%, 35%);
 }
 .share-container .pop-up-container dialog {
@@ -115,13 +116,20 @@ body {
   padding: 10px;
   background-color: hsl(217, 19%, 35%);
   border-style: none;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
-.share-container .pop-up-container dialog p {
+.share-container .pop-up-container dialog h3 {
+  color: hsl(212, 23%, 69%);
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
 .share-container .pop-up-container .pop-up-button {
   /*position: absolute;*/
+}
+.share-container a img {
+  height: 1rem;
+  display: block;
 }
 
 .footer-bottom {
@@ -165,5 +173,8 @@ a:visited {
     margin-bottom: 0;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0.5rem;
+  }
+  .share-container .pop-up-container dialog {
+    border-bottom-left-radius: 0rem;
   }
 }/*# sourceMappingURL=styles.css.map */
