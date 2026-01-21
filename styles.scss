@@ -77,6 +77,8 @@ body {
     }
 }
 .share-container {
+    position: relative;
+
     button {
         height: 2rem;
         width: 2rem;
@@ -101,6 +103,19 @@ body {
     }
     button:active {
         background-color: hsl(217, 19%, 35%);
+    }
+
+    .pop-up-container {
+        background-color: hsl(217, 19%, 35%);
+        dialog {
+            background-color: hsl(217, 19%, 35%);;
+            border-style: none;
+            
+            p {
+                text-transform: uppercase;
+                letter-spacing: .3rem;
+            }
+        }
     }
 }
 .footer-bottom {
