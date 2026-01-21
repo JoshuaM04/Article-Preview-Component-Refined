@@ -108,6 +108,12 @@ body {
     .pop-up-container {
         background-color: hsl(217, 19%, 35%);
         dialog {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            min-width: 15rem;
+            padding: 10px;
             background-color: hsl(217, 19%, 35%);;
             border-style: none;
             
@@ -115,6 +121,9 @@ body {
                 text-transform: uppercase;
                 letter-spacing: .3rem;
             }
+        }
+        .pop-up-button {
+            /*position: absolute;*/
         }
     }
 }

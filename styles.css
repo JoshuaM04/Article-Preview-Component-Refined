@@ -107,12 +107,21 @@ body {
   background-color: hsl(217, 19%, 35%);
 }
 .share-container .pop-up-container dialog {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-width: 15rem;
+  padding: 10px;
   background-color: hsl(217, 19%, 35%);
   border-style: none;
 }
 .share-container .pop-up-container dialog p {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
+}
+.share-container .pop-up-container .pop-up-button {
+  /*position: absolute;*/
 }
 
 .footer-bottom {
