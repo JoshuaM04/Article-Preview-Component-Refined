@@ -54,7 +54,7 @@ body {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
         display: flex;
-        justify-content: space-between;
+        gap: 1rem;
         align-items: center;
     }
     .profile-container {
@@ -66,8 +66,7 @@ body {
     .inner-text-footer {
         display: flex;
         flex-direction: column;
-        position: relative;
-        right: 1.5rem;
+        margin-right: auto;
     }
 }
 .img-container {
