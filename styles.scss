@@ -17,7 +17,6 @@ body {
 .container {
     max-width: 20.436rem;
     margin: 1.5rem;
-    padding-bottom: 1rem;
     border-style: none;
     border-radius: .5rem;
     background-color: white;
@@ -52,6 +51,7 @@ body {
     .footer {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
+        padding-bottom: 1rem;
         display: flex;
         gap: 1rem;
         align-items: center;
