@@ -198,11 +198,13 @@ a:visited {
             border-bottom-left-radius: .5rem;
         }
     }
-    .share-container {
+    .footer {
         .pop-up-container {
-            dialog {
-                border-bottom-left-radius: 0rem;
-            }
+            top: -60px !important;
+            right: unset !important;
+            left: -7rem !important;
+            width: unset !important;
+            height: unset !important;
         }
     }
 }
