@@ -104,6 +104,7 @@ body {
     }
 
     .pop-up-container {
+        /* COME BACK TO */
         position: absolute;
         top: 0;
         right: 0;
@@ -209,7 +210,12 @@ a:visited {
             height: unset;
 
             dialog {
-                border-bottom-left-radius: 0;
+                border-radius: .5rem;
+            }
+
+            .pop-up-button {
+                /* Temporary CSS property to hide button from screen. Will fix later. */
+                display: none;
             }
         }
     }

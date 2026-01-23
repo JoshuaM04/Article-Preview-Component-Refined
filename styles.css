@@ -100,6 +100,7 @@ body {
   background-color: hsl(217, 19%, 35%);
 }
 .share-container .pop-up-container {
+  /* COME BACK TO */
   position: absolute;
   top: 0;
   right: 0;
@@ -203,6 +204,10 @@ a:visited {
     height: unset;
   }
   .share-container .pop-up-container dialog {
-    border-bottom-left-radius: 0;
+    border-radius: 0.5rem;
+  }
+  .share-container .pop-up-container .pop-up-button {
+    /* Temporary CSS property to hide button from screen. Will fix later. */
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
