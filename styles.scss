@@ -55,61 +55,6 @@ body {
         gap: 1rem;
         align-items: center;
 
-        .pop-up-container {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
-            background-color: hsl(217, 19%, 35%);
-            border-bottom-right-radius: .5rem;
-            border-bottom-left-radius: .5rem;
-
-            dialog {
-                position: absolute;
-                display: flex;
-                align-items: center;
-                gap: 1rem;
-                min-width: 15rem;
-                padding: 10px;
-                background-color: hsl(217, 19%, 35%);
-                border-style: none;
-                border-bottom-left-radius: .5rem;
-                border-bottom-right-radius: .5rem;
-                
-                h3 {
-                    color: hsl(212, 23%, 69%);
-                    text-transform: uppercase;
-                    letter-spacing: .3rem;
-                }
-            }
-
-            .pop-up-button {
-                height: 2rem;
-                width: 2rem;
-                margin-right: .5rem;
-                border-style: none;
-                border-radius: 50%;
-                background-image: url("images/icon-share.svg");
-                background-repeat: no-repeat;
-                background-position: center center;
-
-                .sr-only {
-                    position: absolute;
-                    left: -10000px;
-                    top: auto;
-                    width: 1px;
-                    height: 1px;
-                    overflow: hidden;
-                }
-            }
-        }
-        a {
-            img {
-                height: 1rem;
-                display: block;
-            }
-        }
     .profile-container {
         width: 3rem;
         margin-left: 1rem;
@@ -132,8 +77,6 @@ body {
     }
 }
 .share-container {
-    position: relative;
-
     button {
         height: 2rem;
         width: 2rem;
@@ -158,6 +101,62 @@ body {
     }
     button:active {
         background-color: hsl(217, 19%, 35%);
+    }
+
+    .pop-up-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: hsl(217, 19%, 35%);
+        border-bottom-right-radius: .5rem;
+        border-bottom-left-radius: .5rem;
+
+        dialog {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            min-width: 15rem;
+            padding: 10px;
+            background-color: hsl(217, 19%, 35%);
+            border-style: none;
+            border-bottom-left-radius: .5rem;
+            border-bottom-right-radius: .5rem;
+            
+            h3 {
+                color: hsl(212, 23%, 69%);
+                text-transform: uppercase;
+                letter-spacing: .3rem;
+            }
+        }
+
+        .pop-up-button {
+            height: 2rem;
+            width: 2rem;
+            margin-right: .5rem;
+            border-style: none;
+            border-radius: 50%;
+            background-image: url("images/icon-share.svg");
+            background-repeat: no-repeat;
+            background-position: center center;
+
+            .sr-only {
+                position: absolute;
+                left: -10000px;
+                top: auto;
+                width: 1px;
+                height: 1px;
+                overflow: hidden;
+            }
+        }
+        a {
+            img {
+                height: 1rem;
+                display: block;
+            }
+        }
     }
 }
 .footer-bottom {
@@ -198,13 +197,20 @@ a:visited {
             border-bottom-left-radius: .5rem;
         }
     }
-    .footer {
+    .share-container {
+        position: relative;
+
         .pop-up-container {
-            top: -60px !important;
-            right: unset !important;
-            left: -7rem !important;
-            width: unset !important;
-            height: unset !important;
+            position: absolute;
+            top: -60px;
+            right: unset;
+            left: -7rem;
+            width: unset;
+            height: unset;
+
+            dialog {
+                border-bottom-left-radius: 0;
+            }
         }
     }
 }
