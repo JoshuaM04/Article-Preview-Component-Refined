@@ -99,17 +99,7 @@ body {
 .share-container button:active {
   background-color: hsl(217, 19%, 35%);
 }
-.share-container .pop-up-container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-color: hsl(217, 19%, 35%);
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-}
-.share-container .pop-up-container dialog {
+.share-container dialog {
   position: absolute;
   display: flex;
   align-items: center;
@@ -121,12 +111,12 @@ body {
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
-.share-container .pop-up-container dialog h3 {
+.share-container dialog h3 {
   color: hsl(212, 23%, 69%);
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
-.share-container .pop-up-container .pop-up-button {
+.share-container .pop-up-button {
   height: 2rem;
   width: 2rem;
   margin-right: 0.5rem;
@@ -136,7 +126,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.share-container .pop-up-container .pop-up-button .sr-only {
+.share-container .pop-up-button .sr-only {
   position: absolute;
   left: -10000px;
   top: auto;
@@ -144,7 +134,7 @@ body {
   height: 1px;
   overflow: hidden;
 }
-.share-container .pop-up-container a img {
+.share-container a img {
   height: 1rem;
   display: block;
 }
